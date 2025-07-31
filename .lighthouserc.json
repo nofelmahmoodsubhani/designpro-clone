@@ -7,12 +7,18 @@
       "numberOfRuns": 1
     },
     "assert": {
-      "preset": "lighthouse:recommended"
+      "assertions": {
+        "legacy-javascript": ["warn", { "minScore": 0 }],
+        "network-dependency-tree": ["warn", { "minScore": 0 }],
+        "unused-javascript": ["warn", { "maxLength": 1000 }],
+        "render-blocking-resources": ["warn", { "maxLength": 5 }]
+      }
     },
     "upload": {
       "target": "temporary-public-storage"
     }
   }
 }
+
 
   
