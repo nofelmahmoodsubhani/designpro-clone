@@ -30,7 +30,6 @@ jobs:
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }} # if you have it, otherwise omit this line
           vercel-args: '--prod' # for production deploy, remove if you want preview deploy
           working-directory: .
         env:
