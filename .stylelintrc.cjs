@@ -1,10 +1,11 @@
 module.exports = {
     extends: [
       "stylelint-config-standard",
+      "stylelint-config-tailwindcss",
       "stylelint-no-unsupported-browser-features",
       "stylelint-order",
     ],
-    plugins: ["stylelint-declaration-strict-value"],
+    plugins: ["stylelint-tailwindcss","stylelint-declaration-strict-value"],
     rules: {
       "at-rule-no-unknown": [
         true,
