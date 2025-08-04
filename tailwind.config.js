@@ -50,6 +50,9 @@ module.exports = {
 			'4': 'hsl(var(--chart-4))',
 			'5': 'hsl(var(--chart-5))',
 		  },
+		  figma: 'var(--color-figma)',
+		  figmaHover: 'var(--color-figmaHover)',
+		  figmaForeground: 'var(--color-figmaForeground)',
 		},
 		spacing: {
 		  'xs': 'var(--space-xs)',

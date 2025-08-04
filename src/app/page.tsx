@@ -1,14 +1,6 @@
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-  CardContent,
-  CardFooter,
-} from "@/components/ui/card";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { FigmaButton } from "@/components/ui/FigmaButton";
+import { ChromeButton } from "@/components/ui/ChromeButton";
 
 export default function Home() {
   return (
@@ -20,27 +12,11 @@ export default function Home() {
 
       <h1 className="text-3xl font-bold mb-6">DesignPro Clone</h1>
 
-      <div className="mb-6 space-x-2">
-        <Badge>Default</Badge>
-        <Badge variant="secondary">Secondary</Badge>
-        <Badge variant="destructive">Destructive</Badge>
-        <Badge variant="outline">Outline</Badge>
+      {/* Showcase new buttons only */}
+      <div className="flex flex-col sm:flex-row gap-4 mt-6">
+        <FigmaButton href="#">Try Figma Plugin</FigmaButton>
+        <ChromeButton href="#">Try Chrome Extension</ChromeButton>
       </div>
-
-      <Button variant="default">Click me</Button>
-
-      <Card className="w-[380px] mt-10">
-        <CardHeader>
-          <CardTitle>Card Title</CardTitle>
-          <CardDescription>This is a card description.</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <p>Here’s the main content of the card.</p>
-        </CardContent>
-        <CardFooter>
-          <Button>Action</Button>
-        </CardFooter>
-      </Card>
     </main>
   );
 }
