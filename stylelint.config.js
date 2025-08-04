@@ -3,6 +3,7 @@ module.exports = {
     extends: [
       "stylelint-config-standard",
       "stylelint-no-unsupported-browser-features",
+      "stylelint-config-tailwindcss",
     ],
     plugins: ["stylelint-declaration-strict-value"],
     rules: {
