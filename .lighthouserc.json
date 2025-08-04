@@ -1,7 +1,4 @@
 {
-  "project": {
-    "name": "designpro-clone"
-  },
   "ci": {
     "collect": {
       "startServerCommand": "npm run build && npm run start",
