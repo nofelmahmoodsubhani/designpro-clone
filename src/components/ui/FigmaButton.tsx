@@ -5,11 +5,11 @@ export interface FigmaButtonProps extends React.AnchorHTMLAttributes<HTMLAnchorE
 
 export function FigmaButton({ className, ...props }: FigmaButtonProps) {
   return (
-    <div className="rounded-xl bg-secondary p-2 shadow-md">
+<div className="bg-secondary border border-gray-200 rounded-xl px-1 py-1">
       <a
         className={[
-          "flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-base transition",
-          "bg-figma text-figmaForeground hover:bg-figmaHover",
+          "flex items-center justify-center px-5 py-2.5 rounded-2xl font-medium text-lg border-0 transition-all duration-150",
+          "bg-[#4285F4] text-white focus:outline-none focus:ring-2 focus:ring-[#4285F4]/40 hover:bg-[#1a73e8]",
           className
         ].filter(Boolean).join(" ")}
         {...props}
