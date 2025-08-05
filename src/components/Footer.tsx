@@ -4,7 +4,7 @@ import { FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="w-full">
+    <footer className="w-full" style={{ background: 'hsl(var(--background))' }}>
       <div 
         className="max-w-7xl mx-auto flex items-center justify-between"
         style={{
