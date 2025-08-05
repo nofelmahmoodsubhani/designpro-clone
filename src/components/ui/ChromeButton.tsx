@@ -5,11 +5,11 @@ export interface ChromeButtonProps extends React.AnchorHTMLAttributes<HTMLAnchor
 
 export function ChromeButton({ className, ...props }: ChromeButtonProps) {
   return (
-<div className="bg-secondary border border-gray-200 rounded-xl px-1 py-1">
+    <div className="bg-secondary border border-border rounded-xl p-1">
       <a
         className={[
           "flex items-center justify-center px-5 py-2.5 rounded-2xl font-medium text-lg border transition-all duration-150",
-          "bg-white text-black border-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200/40 hover:bg-gray-50",
+          "bg-background text-foreground border-border focus:outline-none focus:ring-2 focus:ring-border/40 hover:bg-muted",
           className
         ].filter(Boolean).join(" ")}
         {...props}

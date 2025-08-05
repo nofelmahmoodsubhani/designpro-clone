@@ -4,9 +4,10 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <header
-      className="sticky top-0 z-50 w-full"
+      className="sticky top-0 z-50 w-full border-b border-border/40"
       style={{
-        background: 'var(--color-background)'
+        background: 'hsl(var(--background))',
+        backdropFilter: 'blur(8px)'
       }}
     >
       <div
