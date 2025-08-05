@@ -1,8 +1,13 @@
+"use client";
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
+  const pathname = usePathname();
+
   return (
     <footer className="w-full" style={{ background: 'hsl(var(--background))' }}>
       <div 
@@ -48,12 +53,13 @@ export default function Footer() {
           <div className="flex items-center" style={{ gap: 'var(--space-4)' }}>
             <Link
               href="/privacy"
-              className="transition-colors hover:text-foreground/80 focus:outline-none focus:ring-2 focus:ring-primary/40 focus-visible:ring-2 focus-visible:ring-primary/60 rounded-md px-2 py-1"
+              className={`transition-colors hover:text-foreground/80 ${
+                pathname === '/privacy' ? 'text-muted-foreground/80' : 'text-foreground'
+              }`}
               style={{
                 fontFamily: 'var(--font-body)',
                 fontWeight: 400,
                 fontSize: '1.07rem',
-                color: 'var(--color-foreground)',
               }}
             >
               Privacy Policy
@@ -61,12 +67,13 @@ export default function Footer() {
 
             <Link
               href="/terms"
-              className="transition-colors hover:text-foreground/80 focus:outline-none focus:ring-2 focus:ring-primary/40 focus-visible:ring-2 focus-visible:ring-primary/60 rounded-md px-2 py-1"
+              className={`transition-colors hover:text-foreground/80 ${
+                pathname === '/terms' ? 'text-muted-foreground/80' : 'text-foreground'
+              }`}
               style={{
                 fontFamily: 'var(--font-body)',
                 fontWeight: 400,
                 fontSize: '1.07rem',
-                color: 'var(--color-foreground)',
               }}
             >
               Terms and Conditions
@@ -81,15 +88,14 @@ export default function Footer() {
             style={{ fontSize: '1.1rem' }}
           />
           <Link
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/company/onbeaconai"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-foreground/80 focus:outline-none focus:ring-2 focus:ring-primary/40 focus-visible:ring-2 focus-visible:ring-primary/60 rounded-md px-2 py-1"
+            className="transition-colors hover:text-foreground/80 text-foreground"
             style={{
               fontFamily: 'var(--font-body)',
               fontWeight: 400,
               fontSize: '1.07rem',
-              color: 'var(--color-foreground)',
             }}
           >
             LinkedIn
