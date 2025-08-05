@@ -7,6 +7,7 @@ import { ChromeButton } from "@/components/ui/ChromeButton";
 import { CreatorBadge } from "@/components/ui/creator-badge";
 import Container from "@/components/Container";
 import VideoDemo from "@/components/VideoDemo";
+import StatisticsCard from "@/components/StatisticsCard";
 
 export default function Home() {
   return (
@@ -66,6 +67,11 @@ export default function Home() {
         {/* Video Demo Section */}
         <Container className="py-16">
           <VideoDemo />
+        </Container>
+
+        {/* Statistics Card Section */}
+        <Container className="py-0">
+          <StatisticsCard />
         </Container>
       </main>
     </>
