@@ -61,8 +61,8 @@ export default function Home() {
             product decisions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-2">
-            <FigmaButton href="#" />
-            <ChromeButton href="#" />
+            <FigmaButton />
+            <ChromeButton />
           </div>
         </Container>
 
