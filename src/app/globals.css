@@ -112,5 +112,15 @@
   html {
     scroll-behavior: smooth;
   }
+
+  /* Scrolling animation for logos */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
 }
 

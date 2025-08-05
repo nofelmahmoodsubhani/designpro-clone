@@ -8,6 +8,7 @@ import { CreatorBadge } from "@/components/ui/creator-badge";
 import Container from "@/components/Container";
 import VideoDemo from "@/components/VideoDemo";
 import StatisticsCard from "@/components/StatisticsCard";
+import TrustedBy from "@/components/TrustedBy";
 
 export default function Home() {
   return (
@@ -74,6 +75,9 @@ export default function Home() {
         <Container className="py-0">
           <StatisticsCard />
         </Container>
+
+        {/* Trusted By Section */}
+        <TrustedBy />
       </main>
     </>
   );
