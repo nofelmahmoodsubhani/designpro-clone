@@ -53,12 +53,12 @@ export default function VideoDemo() {
             </video>
             
             {/* Play button overlay */}
-            <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+            <div className="absolute inset-0 flex items-center justify-center bg-foreground/20">
               <button
                 onClick={handlePlayClick}
-                className="flex items-center justify-center w-16 h-16 bg-white/90 hover:bg-white transition-all duration-200 rounded-full shadow-lg"
+                className="flex items-center justify-center w-16 h-16 bg-background/90 hover:bg-background transition-all duration-200 rounded-full shadow-lg"
               >
-                <FaPlay className="text-black text-xl ml-1" />
+                <FaPlay className="text-foreground text-xl ml-1" />
               </button>
             </div>
           </div>
@@ -68,14 +68,14 @@ export default function VideoDemo() {
       {/* Modal Popup */}
       {isModalOpen && (
         <div 
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-foreground/80 backdrop-blur-sm"
           onClick={handleBackdropClick}
         >
           <div className="relative w-full max-w-5xl mx-4">
             {/* Close button */}
             <button
               onClick={handleCloseModal}
-              className="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors z-10"
+              className="absolute -top-12 right-0 text-background hover:text-muted-foreground transition-colors z-10"
             >
               <FaTimes className="text-2xl" />
             </button>

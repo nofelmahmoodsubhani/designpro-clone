@@ -48,7 +48,7 @@ export default function Footer() {
           <div className="flex items-center" style={{ gap: 'var(--space-4)' }}>
             <Link
               href="/privacy"
-              className="transition-colors hover:text-foreground/80"
+              className="transition-colors hover:text-foreground/80 focus:outline-none focus:ring-2 focus:ring-primary/40 focus-visible:ring-2 focus-visible:ring-primary/60 rounded-md px-2 py-1"
               style={{
                 fontFamily: 'var(--font-body)',
                 fontWeight: 400,
@@ -61,7 +61,7 @@ export default function Footer() {
 
             <Link
               href="/terms"
-              className="transition-colors hover:text-foreground/80"
+              className="transition-colors hover:text-foreground/80 focus:outline-none focus:ring-2 focus:ring-primary/40 focus-visible:ring-2 focus-visible:ring-primary/60 rounded-md px-2 py-1"
               style={{
                 fontFamily: 'var(--font-body)',
                 fontWeight: 400,
@@ -84,7 +84,7 @@ export default function Footer() {
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-foreground/80"
+            className="transition-colors hover:text-foreground/80 focus:outline-none focus:ring-2 focus:ring-primary/40 focus-visible:ring-2 focus-visible:ring-primary/60 rounded-md px-2 py-1"
             style={{
               fontFamily: 'var(--font-body)',
               fontWeight: 400,

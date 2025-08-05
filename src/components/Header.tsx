@@ -18,7 +18,7 @@ export default function Header() {
           paddingLeft: 'var(--space-8)',
           paddingRight: 'var(--space-8)',
         }}>
-        <div className="flex items-center" style={{ gap: 'var(--space-2)', marginLeft: 'var(--space-8)' }}>
+        <Link href="/" className="flex items-center" style={{ gap: 'var(--space-2)', marginLeft: 'var(--space-8)' }}>
           <Image
             src="/logo.png"
             alt="DesignPro Logo"
@@ -38,10 +38,9 @@ export default function Header() {
           >
             DesignPro
           </span>
-        </div>
+        </Link>
         <nav className="flex items-center" style={{ gap: 'var(--space-8)', marginRight: 'calc(var(--space-8) * 2)' }}>
-          <Link
-            href="#features"
+          <span
             className="transition-colors"
             style={{
               fontFamily: 'var(--font-body)',
@@ -51,9 +50,8 @@ export default function Header() {
             }}
           >
             Features
-          </Link>
-          <Link
-            href="#pricing"
+          </span>
+          <span
             className="transition-colors"
             style={{
               fontFamily: 'var(--font-body)',
@@ -63,7 +61,7 @@ export default function Header() {
             }}
           >
             Pricing
-          </Link>
+          </span>
         </nav>
       </div>
     </header>

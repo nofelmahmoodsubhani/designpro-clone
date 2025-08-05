@@ -17,7 +17,7 @@ export function CreatorBadge({ className, ...props }: CreatorBadgeProps) {
         fontWeight: 'var(--font-weight-medium)',
         fontSize: 'var(--font-size-base)',
         letterSpacing: 'var(--letter-spacing-tight)',
-        boxShadow: '0 2px 8px 0 rgba(16,30,54,0.04)',
+        boxShadow: 'var(--shadow-sm)',
       }}
       {...props}
     >
