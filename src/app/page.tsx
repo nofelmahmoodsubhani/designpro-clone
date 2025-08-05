@@ -5,6 +5,8 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import { FigmaButton } from "@/components/ui/FigmaButton";
 import { ChromeButton } from "@/components/ui/ChromeButton";
 import { CreatorBadge } from "@/components/ui/creator-badge";
+import Container from "@/components/Container";
+import VideoDemo from "@/components/VideoDemo";
 
 export default function Home() {
   return (
@@ -19,7 +21,7 @@ export default function Home() {
           <ThemeToggle />
         </div>
 
-        <div className="flex flex-col items-center w-full max-w-6xl mx-auto" style={{ marginTop: 'var(--space-8)' }}>
+        <Container className="flex flex-col items-center" style={{ marginTop: 'var(--space-8)' }}>
           <span className="mb-10 pl-3 pr-1 py-0.5 rounded-full bg-gray-100 text-black text-base font-medium inline-flex items-center gap-0">
             From the creators of
             <span className="font-bold bg-white text-black rounded-full px-3 py-0.5 ml-2" style={{ boxShadow: '0 4px 16px 0 rgba(0,0,0,0.10)' }}>Siri</span>
@@ -59,7 +61,12 @@ export default function Home() {
             <FigmaButton href="#" />
             <ChromeButton href="#" />
           </div>
-        </div>
+        </Container>
+
+        {/* Video Demo Section */}
+        <Container className="py-16">
+          <VideoDemo />
+        </Container>
       </main>
     </>
   );
