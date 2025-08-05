@@ -1,0 +1,101 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import { FaLinkedin } from 'react-icons/fa';
+
+export default function Footer() {
+  return (
+    <footer className="w-full">
+      <div 
+        className="max-w-7xl mx-auto flex items-center justify-between"
+        style={{
+          paddingTop: 'var(--space-8)',
+          paddingBottom: 'var(--space-8)',
+          paddingLeft: 'var(--space-8)',
+          paddingRight: 'var(--space-8)',
+        }}
+      >
+        {/* Left Section - Logo and Legal Links */}
+        <div className="flex items-center" style={{ gap: 'var(--space-4)', marginLeft: 'var(--space-8)' }}>
+          {/* Logo */}
+          <div className="flex items-center" style={{ gap: 'var(--space-2)' }}>
+            <Image
+              src="/logo.png"
+              alt="DesignPro Logo"
+              width={24}
+              height={24}
+              style={{ filter: 'var(--logo-filter)' }}
+            />
+            <span
+              style={{
+                fontFamily: 'var(--font-heading)',
+                fontWeight: 'var(--font-weight-semibold)',
+                fontSize: '1.1rem',
+                color: 'var(--color-foreground)',
+                letterSpacing: 'var(--letter-spacing-tight)',
+              }}
+            >
+              DesignPro
+            </span>
+          </div>
+
+          {/* Separator */}
+          <div 
+            className="w-1 h-1 rounded-full bg-muted-foreground/60"
+            style={{ marginLeft: 'var(--space-4)' }}
+          />
+
+          {/* Legal Links */}
+          <div className="flex items-center" style={{ gap: 'var(--space-4)' }}>
+            <Link
+              href="/privacy"
+              className="transition-colors hover:text-foreground/80"
+              style={{
+                fontFamily: 'var(--font-body)',
+                fontWeight: 400,
+                fontSize: '1.07rem',
+                color: 'var(--color-foreground)',
+              }}
+            >
+              Privacy Policy
+            </Link>
+
+            <Link
+              href="/terms"
+              className="transition-colors hover:text-foreground/80"
+              style={{
+                fontFamily: 'var(--font-body)',
+                fontWeight: 400,
+                fontSize: '1.07rem',
+                color: 'var(--color-foreground)',
+              }}
+            >
+              Terms and Conditions
+            </Link>
+          </div>
+        </div>
+
+        {/* Right Section - Social Media */}
+        <div className="flex items-center" style={{ gap: 'var(--space-2)', marginRight: 'calc(var(--space-8) * 2)' }}>
+          <FaLinkedin 
+            className="text-muted-foreground/70"
+            style={{ fontSize: '1.1rem' }}
+          />
+          <Link
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-foreground/80"
+            style={{
+              fontFamily: 'var(--font-body)',
+              fontWeight: 400,
+              fontSize: '1.07rem',
+              color: 'var(--color-foreground)',
+            }}
+          >
+            LinkedIn
+          </Link>
+        </div>
+      </div>
+    </footer>
+  );
+} 
