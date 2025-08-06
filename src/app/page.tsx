@@ -9,6 +9,7 @@ import Container from "@/components/Container";
 import VideoDemo from "@/components/VideoDemo";
 import StatisticsCard from "@/components/StatisticsCard";
 import TrustedBy from "@/components/TrustedBy";
+import FeatureRow from "@/components/FeatureRow";
 
 export default function Home() {
   return (
@@ -78,6 +79,9 @@ export default function Home() {
 
         {/* Trusted By Section */}
         <TrustedBy />
+
+        {/* Feature Row Section */}
+        <FeatureRow />
       </main>
     </>
   );

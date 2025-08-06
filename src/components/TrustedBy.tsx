@@ -35,7 +35,7 @@ const companies = [
 
 export default function TrustedBy() {
   return (
-    <div className="w-full py-12" style={{ paddingTop: '8rem' }}>
+    <div className="w-full py-12" style={{ paddingTop: '10rem' }}>
       <div className="max-w-7xl mx-auto text-center">
                  {/* Heading */}
          <h2 
