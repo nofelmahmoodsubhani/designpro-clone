@@ -89,7 +89,7 @@ export default function FeatureRow() {
                  paddingBottom: 'var(--space-6)',
                }}
             >
-              Your team's trusted design partner delivering UI, UX, accessibility<br />
+              Your team&apos;s trusted design partner delivering UI, UX, accessibility<br />
               and growth insights through 600+ proven best practices—turning<br />
               weeks of design iterations into minutes.
             </p>

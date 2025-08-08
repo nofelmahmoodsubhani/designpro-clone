@@ -5,7 +5,7 @@ module.exports = {
       "stylelint-no-unsupported-browser-features",
       "stylelint-order",
     ],
-    plugins: ["stylelint-tailwindcss","stylelint-declaration-strict-value"],
+    plugins: ["stylelint-declaration-strict-value"],
     rules: {
       "at-rule-no-unknown": [
         true,

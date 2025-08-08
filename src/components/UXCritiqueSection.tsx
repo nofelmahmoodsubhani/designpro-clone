@@ -36,7 +36,7 @@ export default function UXCritiqueSection() {
                paddingBottom: 'var(--space-4)',
              }}
            >
-          Instantly test your team's designs using 130+ psychology principles<br />
+          Instantly test your team&apos;s designs using 130+ psychology principles<br />
           and uncover actionable UX and Growth insights, together.
         </p>
 
@@ -78,12 +78,12 @@ export default function UXCritiqueSection() {
                 {/* Principle */}
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-lg">💭</span>
-                  <span className="text-sm font-semibold text-left" style={{ color: 'hsl(var(--color-card-text-gray))' }}>Hick's Law</span>
+                  <span className="text-sm font-semibold text-left" style={{ color: 'hsl(var(--color-card-text-gray))' }}>Hick&apos;s Law</span>
                 </div>
                 
                 {/* Explanation */}
                 <p className="text-xs mb-4 text-left" style={{ color: 'hsl(var(--color-card-text-gray))' }}>
-                  Users' motivation increases as they get closer to completing their goal
+                  Users&apos; motivation increases as they get closer to completing their goal
                 </p>
                
                                 {/* Footer Line */}
@@ -175,7 +175,7 @@ export default function UXCritiqueSection() {
                                {/* Main Content */}
                 <div className="mt-12 mb-4">
                   <p className="text-sm leading-relaxed text-left" style={{ color: 'hsl(var(--color-card-text-gray))' }}>
-                    Simplify the initial screen by reducing visual elements competing for attention and prioritize the primary "Sign up" action
+                    Simplify the initial screen by reducing visual elements competing for attention and prioritize the primary &quot;Sign up&quot; action
                   </p>
                 </div>
                 

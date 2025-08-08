@@ -1,5 +1,6 @@
 
 @import url('/fonts/inter.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -58,8 +59,8 @@
 
     /* Typography Tokens */
     --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
-    --font-serif: ui-serif, Georgia, serif;
-    --font-mono: ui-monospace, SFMono-Regular, monospace;
+    --font-serif: ui-serif, georgia, serif;
+    --font-mono: ui-monospace, sfmono-regular, monospace;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
@@ -83,13 +84,13 @@
     --letter-spacing-tight: -0.01em;
 
     /* Shadow Tokens */
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-    --shadow-product-card: 0 10px 25px rgba(0, 0, 0, 0.1);
-    --rgba-border-light: rgba(0, 0, 0, 0.05);
-    --rgba-shadow-light: rgba(0, 0, 0, 0.1);
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 5%);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 10%);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 10%);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 10%);
+    --shadow-product-card: 0 10px 25px rgb(0 0 0 / 10%);
+    --rgba-border-light: rgb(0 0 0 / 5%);
+    --rgba-shadow-light: rgb(0 0 0 / 10%);
 
     /* Motion Tokens */
     --duration-fast: 150ms;
@@ -105,7 +106,7 @@
     --color-teal: 180 100% 40%;
     --color-teal-accent: 180 100% 50%;
     --color-teal-exact: 181 100% 41%;
-    --color-gray-600: 0 0% 40%;
+    --color-gray-600-light: 0 0% 40%;
     --color-gray-100-light: 210 14% 93%;
     --color-green-dark: 165 33% 26%;
     --color-green-light: 168 33% 57%;
@@ -204,7 +205,6 @@
     --color-figma-hover: 217 91% 50%;
     --color-figma-foreground: 0 0% 100%;
     --color-teal-exact: 181 100% 41%;
-    --color-gray-600: 0 0% 40%;
     --color-gray-100-light: 210 14% 93%;
     --color-green-dark: 165 33% 26%;
     --color-green-light: 168 33% 57%;
@@ -219,9 +219,9 @@
     --color-card-tag-gray: 220 13% 85%;
 
     /* Shadow Tokens - Dark Theme (same as light) */
-    --shadow-product-card: 0 10px 25px rgba(0, 0, 0, 0.1);
-    --rgba-border-light: rgba(0, 0, 0, 0.05);
-    --rgba-shadow-light: rgba(0, 0, 0, 0.1);
+    --shadow-product-card: 0 10px 25px rgb(0 0 0 / 10%);
+    --rgba-border-light: rgb(0 0 0 / 5%);
+    --rgba-shadow-light: rgb(0 0 0 / 10%);
 
     /* Typography Tokens - Dark Theme (same as light) */
     --font-size-xs: 12px;
@@ -249,6 +249,7 @@
 
   body {
     @apply bg-background text-foreground;
+
     background-color: hsl(var(--background));
   }
 
