@@ -7,9 +7,9 @@ export default function UXCritiqueSection() {
       <div className="text-center px-8 bg-background" style={{ 
         paddingTop: 'var(--space-34)', 
         paddingBottom: 'var(--space-24)',
-        borderLeft: '1px solid rgba(0, 0, 0, 0.05)',
-        borderRight: '1px solid rgba(0, 0, 0, 0.05)',
-        borderBottom: '1px solid rgba(0, 0, 0, 0.05)'
+        borderLeft: '1px solid var(--rgba-border-light)',
+        borderRight: '1px solid var(--rgba-border-light)',
+        borderBottom: '1px solid var(--rgba-border-light)'
       }}>
         <h2 
           className="font-bold mb-4"
@@ -19,7 +19,7 @@ export default function UXCritiqueSection() {
             color: 'var(--foreground)',
             letterSpacing: 'var(--letter-spacing-tight)',
             lineHeight: 1.2,
-            fontSize: 'clamp(2.1rem, 4.2vw, 2.6rem)',
+                            fontSize: 'var(--font-size-clamp-large)',
           }}
         >
           UX Critique & Onboarding Audit
@@ -31,7 +31,7 @@ export default function UXCritiqueSection() {
                fontWeight: 500,
                color: 'hsl(0 0% 50%)',
                lineHeight: 1.3,
-               fontSize: 'clamp(1.25rem, 4vw, 1.5rem)',
+                               fontSize: 'var(--font-size-clamp-medium)',
                paddingTop: 'var(--space-8)',
                paddingBottom: 'var(--space-4)',
              }}

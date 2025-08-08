@@ -31,7 +31,7 @@ export default function Header() {
             style={{
               fontFamily: 'var(--font-heading)',
               fontWeight: 'var(--font-weight-semibold)',
-              fontSize: '1.35rem',
+              fontSize: 'var(--font-size-3xl-rem)',
               color: 'var(--color-foreground)',
               letterSpacing: 'var(--letter-spacing-tight)',
             }}
@@ -45,7 +45,7 @@ export default function Header() {
             style={{
               fontFamily: 'var(--font-body)',
               fontWeight: 400,
-              fontSize: '1.07rem',
+              fontSize: 'var(--font-size-lg-rem)',
               color: 'var(--color-foreground)',
             }}
           >
@@ -56,7 +56,7 @@ export default function Header() {
             style={{
               fontFamily: 'var(--font-body)',
               fontWeight: 400,
-              fontSize: '1.07rem',
+              fontSize: 'var(--font-size-lg-rem)',
               color: 'var(--color-foreground)',
             }}
           >

@@ -32,6 +32,8 @@
     --radius-lg: 8px;
     --radius-xl: 12px;
     --radius-2xl: 16px;
+    --radius-3xl: 20px;
+    --radius-4xl: 24px;
 
     /* Spacing Tokens */
     --space-0: 0px;
@@ -68,6 +70,16 @@
     --font-size-2xl: 24px;
     --font-size-3xl: 30px;
     --font-size-4xl: 36px;
+    --font-size-xs: 12px;
+    --font-size-sm-rem: 0.75rem;
+    --font-size-base-rem: 1rem;
+    --font-size-lg-rem: 1.07rem;
+    --font-size-xl-rem: 1.1rem;
+    --font-size-2xl-rem: 1.125rem;
+    --font-size-3xl-rem: 1.35rem;
+    --font-size-4xl-rem: 1.375rem;
+    --font-size-clamp-large: clamp(2.1rem, 4.2vw, 2.6rem);
+    --font-size-clamp-medium: clamp(1.25rem, 4vw, 1.5rem);
     --letter-spacing-tight: -0.01em;
 
     /* Shadow Tokens */
@@ -75,6 +87,9 @@
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    --shadow-product-card: 0 10px 25px rgba(0, 0, 0, 0.1);
+    --rgba-border-light: rgba(0, 0, 0, 0.05);
+    --rgba-shadow-light: rgba(0, 0, 0, 0.1);
 
     /* Motion Tokens */
     --duration-fast: 150ms;
@@ -202,6 +217,23 @@
     --color-card-brown: 25 85% 30%;
     --color-card-text-gray: 220 15% 25%;
     --color-card-tag-gray: 220 13% 85%;
+
+    /* Shadow Tokens - Dark Theme (same as light) */
+    --shadow-product-card: 0 10px 25px rgba(0, 0, 0, 0.1);
+    --rgba-border-light: rgba(0, 0, 0, 0.05);
+    --rgba-shadow-light: rgba(0, 0, 0, 0.1);
+
+    /* Typography Tokens - Dark Theme (same as light) */
+    --font-size-xs: 12px;
+    --font-size-sm-rem: 0.75rem;
+    --font-size-base-rem: 1rem;
+    --font-size-lg-rem: 1.07rem;
+    --font-size-xl-rem: 1.1rem;
+    --font-size-2xl-rem: 1.125rem;
+    --font-size-3xl-rem: 1.35rem;
+    --font-size-4xl-rem: 1.375rem;
+    --font-size-clamp-large: clamp(2.1rem, 4.2vw, 2.6rem);
+    --font-size-clamp-medium: clamp(1.25rem, 4vw, 1.5rem);
 
     /* Dark theme color overrides */
     --color-text-primary: 0 0% 98%;

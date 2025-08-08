@@ -34,7 +34,7 @@ export default function Footer() {
               style={{
                 fontFamily: 'var(--font-heading)',
                 fontWeight: 'var(--font-weight-semibold)',
-                fontSize: '1.1rem',
+                fontSize: 'var(--font-size-xl-rem)',
                 color: 'var(--color-foreground)',
                 letterSpacing: 'var(--letter-spacing-tight)',
               }}
@@ -59,7 +59,7 @@ export default function Footer() {
               style={{
                 fontFamily: 'var(--font-body)',
                 fontWeight: 400,
-                fontSize: '1.07rem',
+                fontSize: 'var(--font-size-lg-rem)',
               }}
             >
               Privacy Policy
@@ -73,7 +73,7 @@ export default function Footer() {
               style={{
                 fontFamily: 'var(--font-body)',
                 fontWeight: 400,
-                fontSize: '1.07rem',
+                fontSize: 'var(--font-size-lg-rem)',
               }}
             >
               Terms and Conditions
@@ -85,7 +85,7 @@ export default function Footer() {
         <div className="flex items-center" style={{ gap: 'var(--space-2)', marginRight: 'calc(var(--space-8) * 2)' }}>
           <FaLinkedin 
             className="text-muted-foreground/70"
-            style={{ fontSize: '1.1rem' }}
+            style={{ fontSize: 'var(--font-size-xl-rem)' }}
           />
           <Link
             href="https://www.linkedin.com/company/onbeaconai"
@@ -95,7 +95,7 @@ export default function Footer() {
             style={{
               fontFamily: 'var(--font-body)',
               fontWeight: 400,
-              fontSize: '1.07rem',
+              fontSize: 'var(--font-size-lg-rem)',
             }}
           >
             LinkedIn

@@ -39,7 +39,7 @@ export default function FeatureRow() {
                  borderRadius: 'var(--radius-lg)',
                  borderWidth: '1px',
                  borderStyle: 'solid',
-                 borderColor: 'rgba(0, 0, 0, 0.05)',
+                 borderColor: 'var(--rgba-border-light)',
                  borderBottom: 'none'
                }}
              >
@@ -53,7 +53,7 @@ export default function FeatureRow() {
                 color: 'var(--foreground)',
                 letterSpacing: 'var(--letter-spacing-tight)',
                 lineHeight: 1.2,
-                fontSize: 'clamp(2.1rem, 4.2vw, 2.6rem)',
+                fontSize: 'var(--font-size-clamp-large)',
               }}
             >
               Design confidence for 
@@ -84,7 +84,7 @@ export default function FeatureRow() {
                  fontWeight: 500,
                  color: 'hsl(0 0% 50%)',
                  lineHeight: 1.3,
-                 fontSize: 'clamp(1.25rem, 4vw, 1.5rem)',
+                 fontSize: 'var(--font-size-clamp-medium)',
                  paddingTop: 'var(--space-8)',
                  paddingBottom: 'var(--space-6)',
                }}
@@ -104,14 +104,14 @@ export default function FeatureRow() {
                    <div 
                      className="bg-white shadow-lg overflow-hidden"
                      style={{
-                       borderRadius: '24px',
-                       boxShadow: '0 10px 25px rgba(0, 0, 0, 0.1)',
+                       borderRadius: 'var(--radius-4xl)',
+                       boxShadow: 'var(--shadow-product-card)',
                        maxWidth: '340px',
                        width: '100%',
                      }}
                    >
                     {/* Product Image */}
-                    <div className="relative" style={{ borderRadius: '20px 20px 0 0', overflow: 'hidden' }}>
+                    <div className="relative" style={{ borderRadius: 'var(--radius-3xl) var(--radius-3xl) 0 0', overflow: 'hidden' }}>
                       <Image
                         src="/woman.avif"
                         alt="Woman with tennis racket"
@@ -123,7 +123,7 @@ export default function FeatureRow() {
                     </div>
                     
                     {/* Product Details */}
-                    <div className="p-6" style={{ borderRadius: '0 0 20px 20px' }}>
+                    <div className="p-6" style={{ borderRadius: '0 0 var(--radius-3xl) var(--radius-3xl)' }}>
                       {/* Price and Rating */}
                       <div className="flex items-center gap-2 mb-3">
                                                 <span

@@ -43,7 +43,7 @@ export default function TrustedBy() {
            style={{
              fontFamily: 'var(--font-body)',
              fontWeight: 400,
-             fontSize: '1.375rem',
+                             fontSize: 'var(--font-size-4xl-rem)',
              color: 'var(--color-muted-foreground)',
              opacity: 0.7,
            }}

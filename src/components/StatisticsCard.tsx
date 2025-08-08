@@ -56,7 +56,7 @@ export default function StatisticsCard() {
                    style={{
                      fontFamily: 'var(--font-body)',
                      fontWeight: 600,
-                     fontSize: '1.125rem',
+                     fontSize: 'var(--font-size-2xl-rem)',
                      color: 'hsl(0 0% 0%)',
                    }}
                  >
@@ -67,7 +67,7 @@ export default function StatisticsCard() {
                    style={{
                      fontFamily: 'var(--font-body)',
                      fontWeight: 400,
-                     fontSize: '0.75rem',
+                     fontSize: 'var(--font-size-sm-rem)',
                    }}
                  >
                   {stat.label}
