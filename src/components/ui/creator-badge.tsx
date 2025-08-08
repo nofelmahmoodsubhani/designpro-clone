@@ -12,7 +12,7 @@ export function CreatorBadge({ className, ...props }: CreatorBadgeProps) {
       style={{
         background: 'var(--color-background)',
         color: 'var(--color-foreground)',
-        border: '1px solid var(--border)',
+        border: 'var(--border-width-normal) solid var(--border)',
         fontFamily: 'var(--font-body)',
         fontWeight: 'var(--font-weight-medium)',
         fontSize: 'var(--font-size-base)',

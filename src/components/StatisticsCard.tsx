@@ -30,13 +30,17 @@ export default function StatisticsCard() {
              <div 
                    className="bg-white shadow-lg px-5 py-4 border border-border"
          style={{
-           borderRadius: '16px',
+           borderRadius: 'var(--radius-2xl)',
            boxShadow: 'var(--shadow-lg)',
          }}
        >
                  <div className="grid grid-cols-3 gap-6">
           {stats.map((stat, index) => (
-            <div key={index} className="flex items-center justify-center" style={{ gap: 'var(--space-4)' }}>
+                         <div 
+               key={index} 
+               className={`flex items-center justify-center ${index < stats.length - 1 ? 'border-r border-border pr-6' : ''}`}
+               style={{ gap: 'var(--space-4)' }}
+             >
               <div>
                                  <Image
                    src={stat.iconSrc}

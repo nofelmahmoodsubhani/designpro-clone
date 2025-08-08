@@ -7,7 +7,7 @@ export default function Header() {
       className="sticky top-0 z-50 w-full"
       style={{
         background: 'hsl(var(--background))',
-        backdropFilter: 'blur(8px)'
+        backdropFilter: 'blur(var(--space-2))'
       }}
     >
       <div

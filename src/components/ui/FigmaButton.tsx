@@ -5,7 +5,7 @@ export interface FigmaButtonProps extends React.AnchorHTMLAttributes<HTMLAnchorE
 
 export function FigmaButton({ className, ...props }: FigmaButtonProps) {
   return (
-    <div className="bg-secondary border border-border/30 p-1.5" style={{ borderRadius: '16px' }}>
+    <div className="bg-secondary border border-border/30 p-1.5" style={{ borderRadius: 'var(--radius-2xl)' }}>
       <a
         href="https://www.figma.com/community/plugin/1339202278007297015/ai-design-reviewer-detect-ui-ux-accessibility-copy-issues"
         target="_blank"
@@ -15,7 +15,7 @@ export function FigmaButton({ className, ...props }: FigmaButtonProps) {
           "bg-figma text-figmaForeground focus:outline-none focus:ring-2 focus:ring-figma/40 hover:bg-figmaHover focus-visible:ring-2 focus-visible:ring-figma/60",
           className
         ].filter(Boolean).join(" ")}
-        style={{ borderRadius: '16px' }}
+        style={{ borderRadius: 'var(--radius-2xl)' }}
         {...props}
       >
         <FaFigma className="mr-2 text-lg" />

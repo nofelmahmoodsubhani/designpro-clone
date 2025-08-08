@@ -5,7 +5,7 @@ export interface ChromeButtonProps extends React.AnchorHTMLAttributes<HTMLAnchor
 
 export function ChromeButton({ className, ...props }: ChromeButtonProps) {
   return (
-    <div className="bg-secondary border border-border/30 p-1.5" style={{ borderRadius: '16px' }}>
+    <div className="bg-secondary border border-border/30 p-1.5" style={{ borderRadius: 'var(--radius-2xl)' }}>
       <a
         href="https://onbeacon.ai/premium-audit"
         target="_blank"
@@ -15,7 +15,7 @@ export function ChromeButton({ className, ...props }: ChromeButtonProps) {
           "bg-background text-foreground border-border focus:outline-none focus:ring-2 focus:ring-border/40 hover:bg-muted focus-visible:ring-2 focus-visible:ring-border/60",
           className
         ].filter(Boolean).join(" ")}
-        style={{ borderRadius: '16px' }}
+        style={{ borderRadius: 'var(--radius-2xl)' }}
         {...props}
       >
         <AiOutlineChrome className="mr-2 text-lg" />

@@ -27,6 +27,11 @@
     --input: 240 5.9% 90%;
     --ring: 240 10% 3.9%;
     --radius: 0.5rem;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+    --radius-2xl: 16px;
 
     /* Spacing Tokens */
     --space-0: 0px;
@@ -84,6 +89,20 @@
     --color-figma-foreground: 0 0% 100%;
     --color-teal: 180 100% 40%;
     --color-teal-accent: 180 100% 50%;
+    --color-teal-exact: 181 100% 41%;
+    --color-gray-600: 0 0% 40%;
+    --color-gray-100-light: 210 14% 93%;
+    --color-green-dark: 165 33% 26%;
+    --color-green-light: 168 33% 57%;
+    --color-gray-600-custom: 0 0% 40%;
+    --color-button-gray: 210 14% 93%;
+    --color-description-text: 75 85% 45%;
+    --color-card-yellow-exact: 60 80% 85%;
+    --color-card-green-exact: 140 85% 85%;
+    --color-card-dark-green: 120 65% 30%;
+    --color-card-brown: 25 85% 30%;
+    --color-card-text-gray: 220 15% 25%;
+    --color-card-tag-gray: 220 13% 85%;
     --logo-filter: none;
 
     /* Color Palette Tokens */
@@ -169,6 +188,20 @@
     --color-figma: 217 91% 60%;
     --color-figma-hover: 217 91% 50%;
     --color-figma-foreground: 0 0% 100%;
+    --color-teal-exact: 181 100% 41%;
+    --color-gray-600: 0 0% 40%;
+    --color-gray-100-light: 210 14% 93%;
+    --color-green-dark: 165 33% 26%;
+    --color-green-light: 168 33% 57%;
+    --color-gray-600-custom: 0 0% 40%;
+    --color-button-gray: 220 8% 85%;
+    --color-description-text: 75 85% 45%;
+    --color-card-yellow-exact: 60 80% 85%;
+    --color-card-green-exact: 140 85% 85%;
+    --color-card-dark-green: 120 65% 30%;
+    --color-card-brown: 25 85% 30%;
+    --color-card-text-gray: 220 15% 25%;
+    --color-card-tag-gray: 220 13% 85%;
 
     /* Dark theme color overrides */
     --color-text-primary: 0 0% 98%;
@@ -184,6 +217,7 @@
 
   body {
     @apply bg-background text-foreground;
+    background-color: hsl(var(--background));
   }
 
   html {

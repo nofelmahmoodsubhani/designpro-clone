@@ -30,11 +30,11 @@ const textBlocks: TextBlock[] = [
 
 export default function FeatureRow() {
   return (
-    <div className="w-full py-16 bg-white" style={{ paddingTop: 'var(--space-32)', paddingBottom: 'var(--space-16)' }}>
+    <div className="w-full py-16 bg-background" style={{ paddingTop: 'var(--space-32)', paddingBottom: 'var(--space-16)' }}>
       <div className="max-w-7xl mx-auto">
                                                                                                                                                                                                                                                                                                {/* White Container */}
              <div 
-               className="bg-white rounded-lg border border-border/40"
+               className="bg-card rounded-lg border border-border/40"
                style={{
                  borderRadius: 'var(--radius-lg)',
                  borderWidth: '1px',
@@ -50,7 +50,7 @@ export default function FeatureRow() {
               style={{
                 fontFamily: 'var(--font-heading)',
                 fontWeight: 'var(--font-weight-bold, 700)',
-                color: 'hsl(0, 0%, 16%)',
+                color: 'var(--foreground)',
                 letterSpacing: 'var(--letter-spacing-tight)',
                 lineHeight: 1.2,
                 fontSize: 'clamp(2.1rem, 4.2vw, 2.6rem)',
@@ -69,8 +69,8 @@ export default function FeatureRow() {
                   >
                     <path 
                       d="M1282.46 5.79c-.91-3.88-5.18-6.65-9.04-5.54-104.37 29.02-193.78 56.87-361.6 74.53-268.41 28.16-539.6 14.6-803.08-26.38C94.9 47.97-.34 26.24.08 41.38c-1.56 14.21 19.47 12.91 29.6 17.24 32.82 8.6 66.1 15.33 99.4 21.81 238.99 44.43 482.98 55.29 725.63 49.01 92.37-4.11 185.68-9.96 275.51-33.09 18.68-6.31 42.79-9.21 55.18-25.89 6.76-13.28-12.41-21.16-13.83-6.12-17.69 11.67-39.31 15.61-59.45 21.34-114.56 25.18-245.31 30.46-361.99 30.36-191.39.45-383.13-10.13-572-42.21 277.31 36.42 560.77 44.96 837.82 2.23 104.21-15.4 195.11-42.74 260.97-61.22a7.57 7.57 0 0 0 5.54-9.05Z" 
-                      fill="#00CED1"
-                      stroke="#00CED1"
+                      fill="hsl(var(--color-teal-exact))"
+                      stroke="hsl(var(--color-teal-exact))"
                       strokeWidth="0.5"
                     />
                   </svg>
@@ -82,7 +82,7 @@ export default function FeatureRow() {
                              style={{
                  fontFamily: 'Inter, system-ui, sans-serif',
                  fontWeight: 500,
-                 color: 'hsl(0, 0%, 45%)',
+                 color: 'hsl(0 0% 50%)',
                  lineHeight: 1.3,
                  fontSize: 'clamp(1.25rem, 4vw, 1.5rem)',
                  paddingTop: 'var(--space-8)',
@@ -131,7 +131,7 @@ export default function FeatureRow() {
                           style={{
                             fontFamily: 'var(--font-heading)',
                             fontWeight: 'var(--font-weight-bold)',
-                            color: '#000',
+                            color: 'hsl(0 0% 0%)',
                             opacity: 0.8,
                           }}
                         >
@@ -149,7 +149,7 @@ export default function FeatureRow() {
                         style={{
                           fontFamily: 'var(--font-heading)',
                           fontWeight: 'var(--font-weight-bold)',
-                          color: '#000',
+                          color: 'hsl(0 0% 0%)',
                           opacity: 0.7,
                         }}
                       >
@@ -163,7 +163,7 @@ export default function FeatureRow() {
                           fontFamily: 'var(--font-body)',
                           fontWeight: 600,
                           fontSize: '12px',
-                          color: '#666',
+                          color: 'hsl(var(--color-gray-600-custom))',
                           lineHeight: 1.8,
                           maxWidth: '280px',
                           opacity: 0.8,
@@ -180,8 +180,8 @@ export default function FeatureRow() {
                             fontFamily: 'var(--font-body)',
                             fontWeight: 'var(--font-weight-medium)',
                             fontSize: '14px',
-                            color: '#666',
-                            backgroundColor: '#e9ecef',
+                            color: 'hsl(var(--color-gray-600-custom))',
+                            backgroundColor: 'hsl(var(--color-button-gray))',
                             pointerEvents: 'none',
                             opacity: 0.8,
                           }}
@@ -194,8 +194,8 @@ export default function FeatureRow() {
                             fontFamily: 'var(--font-body)',
                             fontWeight: 'var(--font-weight-medium)',
                             fontSize: '14px',
-                            color: '#2d5a4f',
-                            backgroundColor: '#6bb8a8',
+                            color: 'hsl(var(--color-green-dark))',
+                            backgroundColor: 'hsl(var(--color-green-light))',
                             pointerEvents: 'none',
                             opacity: 0.8,
                           }}
@@ -223,11 +223,11 @@ export default function FeatureRow() {
                        {textBlocks[0].heading}
                      </h2>
                      <p 
-                       className="text-lg lg:text-xl text-muted-foreground leading-relaxed"
+                       className="text-lg lg:text-xl leading-relaxed"
                        style={{
                          fontFamily: 'var(--font-body)',
                          fontWeight: 400,
-                         color: 'var(--color-muted-foreground)',
+                         color: 'hsl(0 0% 50%)',
                          lineHeight: 1.6,
                        }}
                      >
