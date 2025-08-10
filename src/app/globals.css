@@ -56,6 +56,10 @@
     --space-96: 384px;
     --space-300: 300px;
     --space-400: 400px;
+    --space-320: 320px;
+    --space-7xl: 1280px;
+    --space-cardMin: 320px;
+    --space-cardMax: 20rem;
 
     /* Typography Tokens */
     --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;

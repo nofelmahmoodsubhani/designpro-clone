@@ -10,6 +10,7 @@ import VideoDemo from "@/components/VideoDemo";
 import StatisticsCard from "@/components/StatisticsCard";
 import TrustedBy from "@/components/TrustedBy";
 import FeatureRow from "@/components/FeatureRow";
+import ReviewsSection from "@/components/ReviewsSection";
 
 export default function Home() {
   return (
@@ -82,6 +83,7 @@ export default function Home() {
 
         {/* Feature Row Section */}
         <FeatureRow />
+        <ReviewsSection />
       </main>
     </>
   );
