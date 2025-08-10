@@ -108,6 +108,7 @@
     --color-teal-exact: 181 100% 41%;
     --color-gray-600-light: 0 0% 40%;
     --color-gray-100-light: 210 14% 93%;
+    --color-nav-hover: 210 14% 97%;
     --color-green-dark: 165 33% 26%;
     --color-green-light: 168 33% 57%;
     --color-gray-600-custom: 0 0% 40%;
@@ -206,6 +207,7 @@
     --color-figma-foreground: 0 0% 100%;
     --color-teal-exact: 181 100% 41%;
     --color-gray-100-light: 210 14% 93%;
+    --color-nav-hover: 210 14% 97%;
     --color-green-dark: 165 33% 26%;
     --color-green-light: 168 33% 57%;
     --color-gray-600-custom: 0 0% 40%;

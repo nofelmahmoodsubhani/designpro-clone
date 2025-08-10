@@ -30,7 +30,7 @@ const textBlocks: TextBlock[] = [
 
 export default function FeatureRow() {
   return (
-    <div className="w-full py-16 bg-background" style={{ paddingTop: 'var(--space-32)', paddingBottom: 'var(--space-16)' }}>
+    <div id="features" className="w-full py-16 bg-background" style={{ paddingTop: 'var(--space-32)', paddingBottom: 'var(--space-16)' }}>
       <div className="max-w-7xl mx-auto">
                                                                                                                                                                                                                                                                                                {/* White Container */}
              <div 

@@ -40,8 +40,9 @@ export default function Header() {
           </span>
         </Link>
         <nav className="flex items-center" style={{ gap: 'var(--space-8)', marginRight: 'calc(var(--space-8) * 2)' }}>
-          <span
-            className="transition-colors"
+          <a
+            href="#features"
+            className="transition-colors rounded-full px-4 py-1 duration-150 hover:bg-[hsl(var(--color-nav-hover))]"
             style={{
               fontFamily: 'var(--font-body)',
               fontWeight: 400,
@@ -50,7 +51,7 @@ export default function Header() {
             }}
           >
             Features
-          </span>
+          </a>
           <span
             className="transition-colors"
             style={{
