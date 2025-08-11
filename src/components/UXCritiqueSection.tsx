@@ -6,10 +6,12 @@ export default function UXCritiqueSection() {
       {/* UX Critique Section - Part of Container 1 */}
       <div className="text-center px-8 bg-background" style={{ 
         paddingTop: 'var(--space-34)', 
-        paddingBottom: 'var(--space-24)',
+        paddingBottom: 'var(--space-8)',
         borderLeft: '1px solid var(--rgba-border-light)',
         borderRight: '1px solid var(--rgba-border-light)',
-        borderBottom: '1px solid var(--rgba-border-light)'
+        borderBottom: '1px solid var(--rgba-border-light)',
+        borderBottomLeftRadius: 'var(--radius-lg)',
+        borderBottomRightRadius: 'var(--radius-lg)'
       }}>
         <h2 
           className="font-bold mb-4"

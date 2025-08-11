@@ -137,7 +137,7 @@ export default function ReviewsSection() {
             fontFamily: "var(--font-heading)",
             fontWeight: "var(--font-weight-bold)",
             color: "var(--foreground)",
-            fontSize: "var(--font-size-4xl)",
+            fontSize: "var(--font-size-5xl)",
             letterSpacing: "var(--letter-spacing-tight)",
             lineHeight: "var(--lineHeight-tight)",
             marginBottom: "var(--space-12)",
