@@ -36,7 +36,7 @@ function ReviewCard({ review }: { review: Testimonial }) {
           fontFamily: "var(--font-geist-sans)",
         }}
       >
-        "{review.text}"
+        &ldquo;{review.text}&rdquo;
       </p>
       
       {/* Author section */}

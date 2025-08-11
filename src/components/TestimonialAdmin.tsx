@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Testimonial } from '@/types/testimonials';
 import { getAllTestimonials, filterTestimonials, sortTestimonials } from '@/lib/testimonials';
 
@@ -8,22 +8,29 @@ export default function TestimonialAdmin() {
   const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
   const [editingId, setEditingId] = useState<number | null>(null);
   const [formData, setFormData] = useState<Partial<Testimonial>>({});
-  const [filters, setFilters] = useState({
+  const [filters, setFilters] = useState<{
+    company: string;
+    rating: number;
+    featured: boolean | undefined;
+  }>({
     company: '',
     rating: 0,
-    featured: undefined as boolean | undefined
+    featured: undefined
   });
-  const [sort, setSort] = useState({ field: 'id' as const, direction: 'desc' as const });
+  const [sort, setSort] = useState<{ field: 'id' | 'name' | 'company' | 'rating'; direction: 'asc' | 'desc' }>({ 
+    field: 'id', 
+    direction: 'desc' 
+  });
 
-  useEffect(() => {
-    loadTestimonials();
-  }, [filters, sort]);
-
-  const loadTestimonials = () => {
+  const loadTestimonials = useCallback(() => {
     let filtered = filterTestimonials(filters);
     filtered = sortTestimonials(filtered, sort);
     setTestimonials(filtered);
-  };
+  }, [filters, sort]);
+
+  useEffect(() => {
+    loadTestimonials();
+  }, [filters, sort, loadTestimonials]);
 
   const handleEdit = (testimonial: Testimonial) => {
     setEditingId(testimonial.id);
@@ -98,9 +105,9 @@ export default function TestimonialAdmin() {
         <h2 className="text-lg font-semibold mb-3">Sort</h2>
         <div className="flex gap-4">
           <select
-            value={sort.field}
-            onChange={(e) => setSort({ ...sort, field: e.target.value as any })}
             className="px-3 py-2 border rounded-md"
+            value={sort.field}
+            onChange={(e) => setSort({ ...sort, field: e.target.value as 'id' | 'name' | 'company' | 'rating' })}
           >
             <option value="id">ID</option>
             <option value="name">Name</option>
@@ -108,9 +115,9 @@ export default function TestimonialAdmin() {
             <option value="rating">Rating</option>
           </select>
           <select
-            value={sort.direction}
-            onChange={(e) => setSort({ ...sort, direction: e.target.value as any })}
             className="px-3 py-2 border rounded-md"
+            value={sort.direction}
+            onChange={(e) => setSort({ ...sort, direction: e.target.value as 'asc' | 'desc' })}
           >
             <option value="asc">Ascending</option>
             <option value="desc">Descending</option>
