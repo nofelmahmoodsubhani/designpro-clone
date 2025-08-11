@@ -11,6 +11,7 @@ import StatisticsCard from "@/components/StatisticsCard";
 import TrustedBy from "@/components/TrustedBy";
 import FeatureRow from "@/components/FeatureRow";
 import ReviewsSection from "@/components/ReviewsSection";
+import PricingSection from "@/components/PricingSection";
 
 export default function Home() {
   return (
@@ -84,6 +85,7 @@ export default function Home() {
         {/* Feature Row Section */}
         <FeatureRow />
         <ReviewsSection />
+        <PricingSection />
       </main>
     </>
   );

@@ -96,6 +96,11 @@ module.exports = {
 			800: 'hsl(var(--color-neutral-800))',
 			900: 'hsl(var(--color-neutral-900))',
 		  },
+		  capsuleBorder: 'hsl(var(--color-capsule-border))',
+		  freeCardBorder: 'hsl(var(--color-free-card-border))',
+		  betaText: 'hsl(var(--color-beta-text))',
+		  tickText: 'hsl(var(--color-tick-text))',
+		  figmaCapsule: 'hsl(var(--color-figma-capsule))',
 		  text: {
 			primary: 'hsl(var(--color-text-primary))',
 			secondary: 'hsl(var(--color-text-secondary))',

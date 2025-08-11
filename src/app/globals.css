@@ -213,6 +213,11 @@
     --color-green-light: 168 33% 57%;
     --color-gray-600-custom: 0 0% 40%;
     --color-button-gray: 210 14% 93%;
+    --color-capsule-border: 220 13% 90%;
+    --color-free-card-border: 220 13% 94%;
+    --color-beta-text: 220 13% 45%;
+    --color-tick-text: 0 0% 0%;
+    --color-figma-capsule: 220 13% 96%;
     --color-description-text: 75 85% 45%;
     --color-card-yellow-exact: 60 80% 85%;
     --color-card-green-exact: 140 85% 85%;
@@ -320,6 +325,11 @@
     --color-green-light: 168 33% 57%;
     --color-gray-600-custom: 0 0% 40%;
     --color-button-gray: 220 8% 85%;
+    --color-capsule-border: 220 13% 90%;
+    --color-free-card-border: 220 13% 94%;
+    --color-beta-text: 220 13% 45%;
+    --color-tick-text: 0 0% 0%;
+    --color-figma-capsule: 220 13% 92%;
     --color-description-text: 75 85% 45%;
     --color-card-yellow-exact: 60 80% 85%;
     --color-card-green-exact: 140 85% 85%;
