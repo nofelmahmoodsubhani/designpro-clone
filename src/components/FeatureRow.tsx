@@ -44,7 +44,7 @@ export default function FeatureRow() {
                }}
              >
           {/* Section Header */}
-          <div className="text-center px-8" style={{ paddingTop: 'var(--space-34)', paddingBottom: 'var(--space-24)' }}>
+          <div className="text-center px-8" style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-24)' }}>
             <h2 
               className="font-bold mb-4"
               style={{

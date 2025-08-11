@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "text": "DesignPro nailed the major weak points of my new user experience, helping me cover my blind spots.",
+    "name": "Nick Punt",
+    "title": "Founder, Margins",
+    "avatar": "/avatars/NickPunt.avif",
+    "company": "Margins",
+    "rating": 5,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "text": "This tool is incredibly useful as it ensures that my junior designers work consistently and deliver high-quality results, freeing my mind for more strategic decisions.",
+    "name": "Danis Lou",
+    "title": "Design Manager, Grab",
+    "avatar": "/avatars/DanisLou.avif",
+    "company": "Grab",
+    "rating": 5,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "text": "DesignPro helps my team conduct a pre-review before our formal reviews. It ensures we've addressed any errors or mistakes before presenting our final work.",
+    "name": "Alan Chan",
+    "title": "Head of APAC Marketing, ByteDance",
+    "avatar": "/avatars/AlanChan.avif",
+    "company": "ByteDance",
+    "rating": 5,
+    "featured": true
+  },
+  {
+    "id": 4,
+    "text": "DesignPro aids my team in delivering websites and content that drives conversions, ultimately fulfilling my clients' business goals.",
+    "name": "Kuber Chopra",
+    "title": "Founder, Rasta Design Agency",
+    "avatar": "/avatars/KuberChopra.avif",
+    "company": "Rasta Design Agency",
+    "rating": 5,
+    "featured": true
+  },
+  {
+    "id": 5,
+    "text": "One of their big selling points is saving time for both stakeholders and users. With stakeholders you have to really understand what users want, which is the most difficult part and DesignPro can help address that.",
+    "name": "Meesh Lin",
+    "title": "ex-Senior Product Designer, Okta",
+    "avatar": "/avatars/MeeshLin.avif",
+    "company": "Okta",
+    "rating": 5,
+    "featured": true
+  },
+  {
+    "id": 6,
+    "text": "With this plugin, I understand what exactly I need to change on the screens because sometimes human feedback is unclear, but the plugin generates high-quality feedback and turns them into clear tasks to be done.",
+    "name": "Halyna Hurla",
+    "title": "ex-Senior Designer at Softserve",
+    "avatar": "/avatars/HalynaHurla.avif",
+    "company": "Softserve",
+    "rating": 5,
+    "featured": true
+  },
+  {
+    "id": 7,
+    "text": "I wish I had DesignPro for my team at Uber. The magical part is having all the feedback beautifully labeled and converted into tasks in an inbox.",
+    "name": "Emily Hsiung",
+    "title": "ex-Staff Designer, Uber",
+    "avatar": "/avatars/EmilyHsiung.avif",
+    "company": "Uber",
+    "rating": 5,
+    "featured": true
+  },
+  {
+    "id": 8,
+    "text": "I've had sleepless nights trying to make my design reviews more effective. When I tried DesignPro I thought of all those moments in my career where I wish DesignPro could have been there.",
+    "name": "Chetana Deorah",
+    "title": "ex-Design Director, Netflix",
+    "avatar": "/avatars/ChetanaDeorah.avif",
+    "company": "Netflix",
+    "rating": 5,
+    "featured": true
+  }
+]

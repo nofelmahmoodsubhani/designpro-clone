@@ -35,6 +35,15 @@
     --radius-2xl: 16px;
     --radius-3xl: 20px;
     --radius-4xl: 24px;
+    --radius-testimonial-card: 24px;
+    --radius-testimonial-avatar: 50%;
+
+    /* Line Height Tokens */
+    --line-height-tight: 0.9;
+    --line-height-normal: 1.0;
+    --line-height-relaxed: 1.1;
+    --line-height-comfortable: 1.5;
+    --line-height-loose: 1.8;
 
     /* Spacing Tokens */
     --space-0: 0px;
@@ -48,26 +57,101 @@
     --space-10: 40px;
     --space-12: 48px;
     --space-16: 64px;
+    --space-20: 80px;
     --space-24: 96px;
     --space-32: 128px;
-    --space-34: 136px;
     --space-48: 192px;
     --space-64: 256px;
+    --space-80: 320px;
     --space-96: 384px;
-    --space-300: 300px;
-    --space-400: 400px;
-    --space-320: 320px;
-    --space-7xl: 1280px;
-    --space-cardMin: 320px;
-    --space-cardMax: 20rem;
+    --space-112: 448px;
+    --space-128: 512px;
+    --space-144: 576px;
+    --space-160: 640px;
+    --space-176: 704px;
+    --space-192: 768px;
+    --space-208: 832px;
+    --space-224: 896px;
+    --space-240: 960px;
+    --space-256: 1024px;
+    --space-288: 1152px;
+    --space-320: 1280px;
+    --space-384: 1536px;
+    --space-448: 1792px;
+    --space-512: 2048px;
+    --space-576: 2304px;
+    --space-640: 2560px;
+    --space-720: 2880px;
+    --space-800: 3200px;
+    --space-900: 3600px;
+    --space-1000: 4000px;
+    --space-1200: 4800px;
+    --space-1400: 5600px;
+    --space-1600: 6400px;
+    --space-1800: 7200px;
+    --space-2000: 8000px;
+    --space-2200: 8800px;
+    --space-2400: 9600px;
+    --space-2600: 10400px;
+    --space-2800: 11200px;
+    --space-3000: 12000px;
+    --space-3200: 12800px;
+    --space-3400: 13600px;
+    --space-3600: 14400px;
+    --space-3800: 15200px;
+    --space-4000: 16000px;
+    --space-cardMin: 480px;
+    --space-cardMax: 30rem;
+
+    /* Testimonial Spacing */
+    --space-testimonial-card-padding: 28px;
+    --space-testimonial-card-gap: 12px;
+    --space-testimonial-quote-top: 24px;
+    --space-testimonial-quote-left: 24px;
+    --space-testimonial-avatar-size: 80px;
+    --space-testimonial-avatar-dimensions: 80px;
+    --space-testimonial-image-width: 80;
+    --space-testimonial-image-height: 80;
+    --space-testimonial-content-spacing: 24px;
+    --space-testimonial-gradient-overlay-width: 128px;
+
+    /* UXCritique Tokens */
+    --uxcritique-card-width: 300px;
+    --uxcritique-card-min-height: 400px;
+    --uxcritique-card-border-width: 2px;
+    --uxcritique-card-transform-front: -5deg;
+    --uxcritique-card-transform-middle: 0deg;
+    --uxcritique-card-transform-back: 5deg;
+    --uxcritique-card-positioning-front-margin-right: -80px;
+    --uxcritique-card-positioning-front-margin-top: -175px;
+    --uxcritique-card-positioning-middle-margin-right: -25px;
+    --uxcritique-card-positioning-middle-margin-top: 50px;
+    --uxcritique-card-positioning-back-margin-top: 250px;
+    --uxcritique-card-positioning-back-margin-left: -40px;
+    --uxcritique-card-elements-header-line-top: 48px;
+    --uxcritique-card-elements-header-line-height: 0.5px;
+    --uxcritique-card-elements-icon-size: 32px;
+    --uxcritique-card-elements-footer-spacing-margin-top: -8px;
+    --uxcritique-card-elements-footer-spacing-margin-left: -4px;
+    --uxcritique-card-elements-footer-spacing-margin-right: -4px;
+    --uxcritique-card-elements-footer-spacing-padding-top: 8px;
+    --uxcritique-card-elements-footer-spacing-padding-bottom: 8px;
+    --uxcritique-card-elements-footer-width: calc(100% + 8px);
+    --uxcritique-typography-heading-line-height: 1.2;
+    --uxcritique-typography-body-line-height: 1.3;
+    --uxcritique-typography-body-font-weight: 500;
+    --uxcritique-typography-subheading-color: 0 0% 50%;
 
     /* Typography Tokens */
-    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
     --font-serif: ui-serif, georgia, serif;
     --font-mono: ui-monospace, sfmono-regular, monospace;
+    --font-testimonial-quote: 'Georgia, serif';
+    --font-testimonial-text: 'Geist, system-ui, sans-serif';
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
     --font-size-sm: 14px;
     --font-size-base: 16px;
     --font-size-lg: 18px;
@@ -75,6 +159,7 @@
     --font-size-2xl: 24px;
     --font-size-3xl: 30px;
     --font-size-4xl: 36px;
+    --font-size-4xlPlus: 40px;
     --font-size-5xl: 42px;
     --font-size-6xl: 48px;
     --font-size-xs: 12px;
@@ -89,12 +174,21 @@
     --font-size-clamp-medium: clamp(1.25rem, 4vw, 1.5rem);
     --letter-spacing-tight: -0.01em;
 
+    /* Testimonial Typography */
+    --font-size-testimonial-quote: 64px;
+    --font-size-testimonial-text: 20px;
+    --font-size-testimonial-author-name: 20px;
+    --font-size-testimonial-author-title: 18px;
+    --line-height-testimonial-text: 1.6;
+    --line-height-testimonial-quote: 0.8;
+
     /* Shadow Tokens */
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 5%);
     --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 10%);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 10%);
     --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 10%);
     --shadow-product-card: 0 10px 25px rgb(0 0 0 / 10%);
+    --shadow-testimonial-card: 0 4px 20px rgba(0, 0, 0, 0.08);
     --rgba-border-light: rgb(0 0 0 / 5%);
     --rgba-shadow-light: rgb(0 0 0 / 10%);
 
@@ -177,6 +271,14 @@
     --color-text-primary: 17 24 39;
     --color-text-secondary: 107 114 128;
     --color-text-muted: 156 163 175;
+
+    /* Testimonial Tokens */
+    --color-testimonial-quote: 220 13% 18%;
+    --color-testimonial-quote-marks: 220 13% 85%;
+    --color-testimonial-author-name: 220 15% 25%;
+    --color-testimonial-author-title: 220 13% 45%;
+    --color-testimonial-card-border: 220 13% 95%;
+    --color-testimonial-card-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
 
     /* Border Tokens */
     --border-width-thin: 0.5px;
@@ -273,6 +375,26 @@
     100% {
       transform: translateX(-50%);
     }
+  }
+
+  /* Marquee animations for testimonials */
+  @keyframes marquee-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  @keyframes marquee-right {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+  }
+
+  /* Marquee animation classes */
+  .animate-marquee-left {
+    animation: marquee-left 90s linear infinite;
+  }
+  
+  .animate-marquee-right {
+    animation: marquee-right 90s linear infinite;
   }
 }
 
