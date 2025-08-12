@@ -45,7 +45,7 @@ export default function Header() {
             className="transition-colors rounded-full px-4 py-1 duration-150 hover:bg-muted"
             style={{
               fontFamily: 'var(--font-body)',
-              fontWeight: 400,
+              fontWeight: 'var(--font-weight-normal)',
               fontSize: 'var(--font-size-lg-rem)',
               color: 'var(--color-foreground)',
             }}
@@ -57,7 +57,7 @@ export default function Header() {
             className="transition-colors rounded-full px-4 py-1 duration-150 hover:bg-muted"
             style={{
               fontFamily: 'var(--font-body)',
-              fontWeight: 400,
+              fontWeight: 'var(--font-weight-normal)',
               fontSize: 'var(--font-size-lg-rem)',
               color: 'var(--color-foreground)',
             }}

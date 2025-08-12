@@ -26,25 +26,25 @@ export default function PricingSection() {
             
             <ul className="space-y-5 mb-10 flex-grow">
               <li className="flex items-start">
-                <svg className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" style={{ color: '#6b7280' }}>
+                <svg className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" style={{ color: 'hsl(var(--color-gray-600-hex))' }}>
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
                 <span className="text-tickText text-xl font-semibold">15 Reviews every week</span>
               </li>
               <li className="flex items-start">
-                <svg className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" style={{ color: '#6b7280' }}>
+                <svg className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" style={{ color: 'hsl(var(--color-gray-600-hex))' }}>
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
                 <span className="text-tickText text-xl font-semibold">Improve copy, UI, accessibility & get UX and onboarding insights</span>
               </li>
               <li className="flex items-start">
-                <svg className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" style={{ color: '#6b7280' }}>
+                <svg className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" style={{ color: 'hsl(var(--color-gray-600-hex))' }}>
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
                 <span className="text-tickText text-xl font-semibold">Add your own branding guide or copy guidelines for personalized feedback</span>
               </li>
               <li className="flex items-start">
-                <svg className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" style={{ color: '#6b7280' }}>
+                <svg className="w-5 h-5 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" style={{ color: 'hsl(var(--color-gray-600-hex))' }}>
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
                 <span className="text-tickText text-xl font-semibold">Slack community to speak to design experts from Apple, Google and Stanford d.school</span>
@@ -110,7 +110,7 @@ export default function PricingSection() {
               <h3 className="text-2xl font-semibold mb-6 text-left">Premium Plan</h3>
               
               {/* Description in 4 lines - Left aligned, bold, white */}
-              <p className="text-3xl font-black leading-tight mb-10 flex-grow text-left" style={{ fontFamily: 'var(--font-geist-sans)', fontWeight: '900' }}>
+              <p className="text-3xl font-black leading-tight mb-10 flex-grow text-left" style={{ fontFamily: 'var(--font-geist-sans)', fontWeight: 'var(--font-weight-black)' }}>
                 Enhance the UX<br />
                 and Growth of<br />
                 your onboarding<br />

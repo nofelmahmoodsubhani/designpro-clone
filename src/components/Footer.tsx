@@ -58,7 +58,7 @@ export default function Footer() {
               }`}
               style={{
                 fontFamily: 'var(--font-body)',
-                fontWeight: 400,
+                fontWeight: 'var(--font-weight-normal)',
                 fontSize: 'var(--font-size-lg-rem)',
               }}
             >
@@ -72,7 +72,7 @@ export default function Footer() {
               }`}
               style={{
                 fontFamily: 'var(--font-body)',
-                fontWeight: 400,
+                fontWeight: 'var(--font-weight-normal)',
                 fontSize: 'var(--font-size-lg-rem)',
               }}
             >
@@ -94,7 +94,7 @@ export default function Footer() {
             className="transition-colors hover:text-foreground/80 text-foreground"
             style={{
               fontFamily: 'var(--font-body)',
-              fontWeight: 400,
+              fontWeight: 'var(--font-weight-normal)',
               fontSize: 'var(--font-size-lg-rem)',
             }}
           >

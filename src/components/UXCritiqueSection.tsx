@@ -5,7 +5,7 @@ export default function UXCritiqueSection() {
     <>
       {/* UX Critique Section - Part of Container 1 */}
       <div className="text-center px-8 bg-background" style={{ 
-        paddingTop: 'var(--space-34)', 
+        paddingTop: 'var(--space-16)', 
         paddingBottom: 'var(--space-8)',
         borderLeft: '1px solid var(--rgba-border-light)',
         borderRight: '1px solid var(--rgba-border-light)',

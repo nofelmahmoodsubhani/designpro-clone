@@ -55,9 +55,9 @@ export default function StatisticsCard() {
                    className="font-semibold"
                    style={{
                      fontFamily: 'var(--font-body)',
-                     fontWeight: 600,
+                     fontWeight: 'var(--font-weight-semibold)',
                      fontSize: 'var(--font-size-2xl-rem)',
-                     color: 'hsl(0 0% 0%)',
+                     color: 'hsl(var(--color-black))',
                    }}
                  >
                   {stat.number}
@@ -66,7 +66,7 @@ export default function StatisticsCard() {
                    className="text-muted-foreground"
                    style={{
                      fontFamily: 'var(--font-body)',
-                     fontWeight: 400,
+                     fontWeight: 'var(--font-weight-normal)',
                      fontSize: 'var(--font-size-sm-rem)',
                    }}
                  >

@@ -81,8 +81,8 @@ export default function FeatureRow() {
               className="text-lg lg:text-xl max-w-6xl mx-auto leading-relaxed"
                              style={{
                  fontFamily: 'Inter, system-ui, sans-serif',
-                 fontWeight: 500,
-                 color: 'hsl(0 0% 50%)',
+                 fontWeight: 'var(--font-weight-medium)',
+                 color: 'hsl(var(--color-gray-500-custom))',
                  lineHeight: 1.3,
                  fontSize: 'var(--font-size-clamp-medium)',
                  paddingTop: 'var(--space-8)',
@@ -131,7 +131,7 @@ export default function FeatureRow() {
                           style={{
                             fontFamily: 'var(--font-heading)',
                             fontWeight: 'var(--font-weight-bold)',
-                            color: 'hsl(0 0% 0%)',
+                            color: 'hsl(var(--color-black))',
                             opacity: 0.8,
                           }}
                         >
@@ -139,7 +139,7 @@ export default function FeatureRow() {
                         </span>
                         <FaCheck 
                           className="text-red-500"
-                          style={{ fontSize: '28px' }}
+                          style={{ fontSize: 'var(--font-size-28)' }}
                         />
                       </div>
                       
@@ -149,7 +149,7 @@ export default function FeatureRow() {
                         style={{
                           fontFamily: 'var(--font-heading)',
                           fontWeight: 'var(--font-weight-bold)',
-                          color: 'hsl(0 0% 0%)',
+                          color: 'hsl(var(--color-black))',
                           opacity: 0.7,
                         }}
                       >
@@ -161,8 +161,8 @@ export default function FeatureRow() {
                         className="mb-4 text-xs"
                         style={{
                           fontFamily: 'var(--font-body)',
-                          fontWeight: 600,
-                          fontSize: '12px',
+                          fontWeight: 'var(--font-weight-semibold)',
+                          fontSize: 'var(--font-size-xs)',
                           color: 'hsl(var(--color-gray-600-custom))',
                           lineHeight: 1.8,
                           maxWidth: '280px',
@@ -179,7 +179,7 @@ export default function FeatureRow() {
                           style={{
                             fontFamily: 'var(--font-body)',
                             fontWeight: 'var(--font-weight-medium)',
-                            fontSize: '14px',
+                            fontSize: 'var(--font-size-sm)',
                             color: 'hsl(var(--color-gray-600-custom))',
                             backgroundColor: 'hsl(var(--color-button-gray))',
                             pointerEvents: 'none',
@@ -193,7 +193,7 @@ export default function FeatureRow() {
                           style={{
                             fontFamily: 'var(--font-body)',
                             fontWeight: 'var(--font-weight-medium)',
-                            fontSize: '14px',
+                            fontSize: 'var(--font-size-sm)',
                             color: 'hsl(var(--color-green-dark))',
                             backgroundColor: 'hsl(var(--color-green-light))',
                             pointerEvents: 'none',
@@ -226,8 +226,8 @@ export default function FeatureRow() {
                        className="text-lg lg:text-xl leading-relaxed"
                        style={{
                          fontFamily: 'var(--font-body)',
-                         fontWeight: 400,
-                         color: 'hsl(0 0% 50%)',
+                         fontWeight: 'var(--font-weight-normal)',
+                         color: 'hsl(var(--color-gray-500-custom))',
                          lineHeight: 1.6,
                        }}
                      >

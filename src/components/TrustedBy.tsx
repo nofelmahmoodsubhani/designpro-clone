@@ -35,14 +35,14 @@ const companies = [
 
 export default function TrustedBy() {
   return (
-    <div className="w-full py-12" style={{ paddingTop: '10rem' }}>
+    <div className="w-full py-12" style={{ paddingTop: 'var(--space-40)' }}>
       <div className="max-w-7xl mx-auto text-center">
                  {/* Heading */}
          <h2 
            className="text-xl text-muted-foreground mb-16"
            style={{
              fontFamily: 'var(--font-body)',
-             fontWeight: 400,
+             fontWeight: 'var(--font-weight-normal)',
                              fontSize: 'var(--font-size-4xl-rem)',
              color: 'var(--color-muted-foreground)',
              opacity: 0.7,
