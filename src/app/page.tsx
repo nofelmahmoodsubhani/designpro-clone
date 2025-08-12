@@ -39,8 +39,8 @@ export default function Home() {
               fontWeight: 'var(--font-weight-bold, 700)',
               color: 'var(--color-foreground)',
               letterSpacing: 'var(--letter-spacing-tight)',
-              lineHeight: 1.03,
-              maxWidth: '900px',
+              lineHeight: 'var(--line-height-heading)',
+              maxWidth: 'var(--space-900-custom)',
               marginLeft: 'auto',
               marginRight: 'auto',
             }}
@@ -55,7 +55,7 @@ export default function Home() {
               fontFamily: 'var(--font-body)',
               fontWeight: 'var(--font-weight-medium)',
               letterSpacing: 'var(--letter-spacing-tight)',
-              lineHeight: 1.4,
+              lineHeight: 'var(--line-height-body)',
               marginLeft: 'auto',
               marginRight: 'auto',
             }}

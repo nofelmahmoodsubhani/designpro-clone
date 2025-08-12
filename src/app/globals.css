@@ -35,6 +35,8 @@
     --radius-2xl: 16px;
     --radius-3xl: 20px;
     --radius-4xl: 24px;
+    --radius-4px: 4px;
+    --radius-128px: 128px;
     --radius-testimonial-card: 24px;
     --radius-testimonial-avatar: 50%;
 
@@ -44,6 +46,10 @@
     --line-height-relaxed: 1.1;
     --line-height-comfortable: 1.5;
     --line-height-loose: 1.8;
+    --line-height-heading: 1.03;
+    --line-height-body: 1.4;
+    --line-height-24px: 24px;
+    --line-height-20px: 20px;
 
     /* Spacing Tokens */
     --space-0: 0px;
@@ -85,6 +91,7 @@
     --space-720: 2880px;
     --space-800: 3200px;
     --space-900: 3600px;
+    --space-900-custom: 900px;
     --space-1000: 4000px;
     --space-1200: 4800px;
     --space-1400: 5600px;
@@ -103,6 +110,17 @@
     --space-4000: 16000px;
     --space-cardMin: 480px;
     --space-cardMax: 30rem;
+    --space-158px: 158px;
+    --space-48px: 48px;
+    --space-40px: 40px;
+    --space-20px: 20px;
+    --space-16px: 16px;
+    --space-24px: 24px;
+    --space-32px: 32px;
+    --space-64px: 64px;
+    --space-80px: 80px;
+    --space-2px: 2px;
+    --space-4px: 4px;
 
     /* Testimonial Spacing */
     --space-testimonial-card-padding: 28px;
@@ -197,9 +215,9 @@
     --rgba-shadow-light: rgb(0 0 0 / 10%);
 
     /* Motion Tokens */
-    --duration-fast: 150ms;
-    --duration-normal: 300ms;
-    --duration-slow: 500ms;
+    --motion-duration-fast: 150ms;
+    --motion-duration-normal: 300ms;
+    --motion-duration-slow: 500ms;
     --easing-in: cubic-bezier(0.4, 0, 1, 1);
     --easing-out: cubic-bezier(0, 0, 0.2, 1);
 
