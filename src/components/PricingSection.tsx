@@ -11,7 +11,7 @@ export default function PricingSection() {
       <Container>
         <div className="text-center mb-16 max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-4" style={{ color: 'hsl(var(--foreground))' }}>
-            Elevate your team's design work
+            Elevate your team&apos;s design work
           </h2>
         </div>
 
